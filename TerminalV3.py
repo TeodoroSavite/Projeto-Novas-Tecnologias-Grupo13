@@ -13,6 +13,8 @@ Como usar:
 
 4. Digite o número do ministério que quer acompanhar (ex: 1) e tecle Enter.
 
+5. Segure a tecla ctrl e clique com o botão esquerdo do mouse para poder abrir a noticia em seu navegador. 
+
 O programa fará UMA única busca, exibirá as notícias encontradas e
 depois retornará ao menu para você escolher outro ministério.
 
@@ -57,6 +59,7 @@ def exibir_menu():
     clear_screen()
     print("=== Monitor de Notícias dos Ministérios ===\n")
     print("Escolha um ministério para acompanhar (digite apenas 1 número):\n")
+    print("Segure a tecla ctrl e clique com o botão esquerdo do mouse para poder abrir a noticia em seu navegador\n")
     for chave, (nome, _) in MINISTERIOS.items():
         print(f"  {chave}. {nome}")
     escolha = input("\nSua escolha: ").strip()
