@@ -1,7 +1,7 @@
 """
 Como usar:
 ────────────────────────────────────────────────────────────────────
-1. Instale as dependências (no terminal do VSCode):
+1. Instale as dependências (no terminal do VSCode ->Para abrir o terminal pressione a tecla ctrl e a tecla do simbolo '):
 
    py -m pip install requests beautifulsoup4
 
