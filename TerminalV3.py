@@ -1,24 +1,46 @@
 """
 Como usar:
 ────────────────────────────────────────────────────────────────────
-1. Instale as dependências (no terminal do VSCode ->Para abrir o terminal pressione a tecla ctrl e a tecla do simbolo '):
+1. Instalar o Python:
+   a) Abra o navegador e acesse https://www.python.org/downloads/windows/  
+   b) Baixe o instalador do Python 3.x (ex: “Python 3.11.x”).  
+   c) Durante a instalação, marque a caixinha “Add Python to PATH” e clique em “Install Now”.
 
+2. Configurar o VSCode para Python:
+   a) Abra o VSCode.  
+   b) Vá em Extensions (ícone de quadrado na barra esquerda) ou pressione Ctrl+Shift+X.  
+   c) Pesquise por “Python” (Microsoft) e clique em “Install”. 
+
+3. Abrir o terminal integrado:
+   a) Com o VSCode aberto, pressione Ctrl + ' (tecla acima do Tab) para abrir o terminal na parte inferior.  
+   b) Garanta que, no canto inferior direito, o VSCode está usando o intérprete Python que você instalou.  
+      - Clique onde aparece “Python 3.x.x” e selecione o intérprete correto se houver mais de um.
+
+4. Criar e preparar o arquivo do programa:
+   a) No VSCode, vá em File → New File.  
+   b) Cole todo o código do monitoramento (monitor_ministerios.py).  
+   c) Salve (Ctrl+S) com o nome **monitor_ministerios.py** em uma pasta de sua escolha.
+
+5. Instalar dependências Python:
+   No terminal integrado(aquele que você abriu usando ctrl + ') certifique‑se que está na pasta onde salvou o arquivo do 
+   programa (monitor_ministérios.py) e escreva a linha abaixo, depois pressione enter:
    py -m pip install requests beautifulsoup4
 
-2. Salve este arquivo como, por exemplo: monitor_ministerios.py
+6. Depois disso Basta "Rodar" o programa:
+   a) Aperte no botão de "Play" no canto superior direito do VSCode ou
+   b) Esreva essa linha no terminal  py monitor_ministerios.py e depois aperte enter.
 
-3. Execute no terminal do VSCode:
+7. Usando o programa:
+- Digite o número do ministério que deseja (ex: 1) e tecle Enter.  
+- Para abrir uma notícia no navegador, segure Ctrl e clique sobre o link. 
+- O link abrirá em seu navegador. 
+- Após visualizar a noticia, volte para o VSCode e pressione Enter no terminal para voltar ao menu e escolher outro ministério.
 
-   py monitor_ministerios.py
-
-4. Digite o número do ministério que quer acompanhar (ex: 1) e tecle Enter.
-
-5. Segure a tecla ctrl e clique com o botão esquerdo do mouse para poder abrir a noticia em seu navegador. 
-
+obs:
 O programa fará UMA única busca, exibirá as notícias encontradas e
 depois retornará ao menu para você escolher outro ministério.
 
-Para sair do programa, feche a janela do terminal ou pressione Ctrl+C
+8. Para sair do programa, feche a janela do terminal ou pressione Ctrl+C
 no menu principal.
 ────────────────────────────────────────────────────────────────────
 """
