@@ -37,8 +37,7 @@ Como usar:
 - Após visualizar a noticia, volte para o VSCode e pressione Enter no terminal para voltar ao menu e escolher outro ministério.
 
 obs:
-O programa fará UMA única busca, exibirá as notícias encontradas e
-depois retornará ao menu para você escolher outro ministério.
+O programa fará UMA única busca e exibirá as notícias encontradas.
 
 8. Para sair do programa, feche a janela do terminal ou pressione Ctrl+C
 no menu principal.
