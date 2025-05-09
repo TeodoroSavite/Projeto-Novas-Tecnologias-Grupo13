@@ -1,5 +1,5 @@
 📡 Monitor de Notícias dos Ministérios (Brasil)
-Um script simples em Python que permite monitorar as notícias recentes publicadas nos portais oficiais dos ministérios do governo brasileiro. As notícias são exibidas com links clicáveis diretamente no terminal.
+Um script em Python que permite monitorar as notícias recentes publicadas nos portais oficiais dos ministérios do governo brasileiro. As notícias são exibidas com links clicáveis diretamente no terminal.
 
 🖥️ Pré-requisitos
 Python 3.8+
