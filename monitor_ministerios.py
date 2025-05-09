@@ -23,7 +23,7 @@ Como usar:
 
 5. Instalar dependências Python:
    No terminal integrado(aquele que você abriu usando ctrl + ') certifique‑se que está na pasta onde salvou o arquivo do 
-   programa (monitor_ministérios.py) e escreva a linha abaixo, depois pressione enter:
+   programa (monitor_ministerios.py) e escreva a linha abaixo, depois pressione enter:
    py -m pip install requests beautifulsoup4
 
 6. Depois disso Basta "Rodar" o programa:
